@@ -28,7 +28,7 @@ $comments = $stmt->fetchAll();
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/single_article.css">
 
-<title>Single Article</title>
+<title><?= $article["article_title"] ?></title>
 
 </head>
 

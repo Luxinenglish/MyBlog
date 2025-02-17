@@ -55,8 +55,7 @@ $most_read_articles = $stmt->fetchAll();
             <div class="bg-div px-5 d-flex align-items-center">
 
                 <div class="text-left w-50">
-                    <h1 class="display-4 text-white">Welcome to Dev Culture!</h1>
-                    <h2 class="display-5 text-white">Discover Dev tutorial and articles that you can read completely for free!</h2>
+                    <h1 class="display-4 text-white">Welcome to Lux's Blog</h1>
 
                 </div>
 
@@ -145,8 +144,7 @@ $most_read_articles = $stmt->fetchAll();
                                             </div>
 
                                             <h3 class="post-title"><a href="single_article.php?id=<?= $article['article_id'] ?>"><?= $article['article_title'] ?></a></h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-                                        </div>
+                                            <p><?= $article['category_description'] ?></p>
                                     </div>
                                 </div>
                                 <!-- /post -->
